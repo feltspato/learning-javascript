@@ -1,6 +1,7 @@
-* {
+body {
     background-color: azure;
     margin: 0;
+    font-family: monospace;
 }
 
 /* header */
@@ -8,4 +9,28 @@
 .header {
     margin: 20px;
     padding: 10px;
+    font-size: 14px;
+}
+
+h1.header {
+    text-align: center;
+    font-size: 26px;
+}
+
+/* sub header */
+
+p.header {
+    word-wrap: break-word;
+    width: 450px;
+    background-color: cadetblue;
+    box-shadow: 10px 10px gray;
+    letter-spacing: 1px;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
