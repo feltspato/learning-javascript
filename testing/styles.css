@@ -1,0 +1,11 @@
+* {
+    background-color: azure;
+    margin: 0;
+}
+
+/* header */
+
+.header {
+    margin: 20px;
+    padding: 10px;
+}
