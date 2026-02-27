@@ -8,3 +8,5 @@ function updateName() {
 const button = document.querySelector(".section-two button");
 
 button.addEventListener("click", updateName);
+
+
